@@ -1,0 +1,56 @@
+/* Gaya dasar untuk form */
+
+body {
+  background-color: #011fcb; /* Warna latar belakang halaman */
+}
+
+form 
+
+{ 
+  background-color: aliceblue;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  p {
+    color:rgba(0, 82, 197, 0.859)
+  }
+
+  /* Gaya untuk label */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Gaya untuk input */
+  input[type="text"],
+  input[type="Email"],
+  input[type="password"],
+  input[type="nama"],
+  input[type="Tempat/Tanggal lahir"],
+  input[type="No.Telepon"],
+  input[type="Asal Sekolah"],
+  input[type="Kelas"],
+  textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Gaya untuk tombol submit */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  /* Gaya khusus untuk elemen lain (sesuaikan selera Anda) */
+  /* Contoh: */
+  #program belajar {
+    width: 200px;
+  }
